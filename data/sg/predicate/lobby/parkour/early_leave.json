@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "position": {
+          "x": {
+            "min": 35535.0,
+            "max": 35564.0
+          },
+          "y": {
+            "min": 45.0,
+            "max": 95.0
+          },
+          "z": {
+            "min": 35521.0,
+            "max": 35568.0
+          }
+        },
+        "dimension": "minecraft:overworld"
+      }
+    }
+  }
+}

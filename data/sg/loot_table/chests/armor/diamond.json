@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:diamond_boots"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:diamond_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:diamond_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:diamond_leggings"
+          }
+        ]
+      }
+    ]
+  }

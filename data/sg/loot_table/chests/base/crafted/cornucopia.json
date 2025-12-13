@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 200,
+          "value": "sg:chests/weapons/stone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 250,
+          "value": "sg:chests/weapons/gold"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 250,
+          "value": "sg:chests/armor/gold"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 200,
+          "value": "sg:chests/weapons/wood"
+        }
+      ]
+    }
+  ]
+}

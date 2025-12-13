@@ -1,0 +1,1 @@
+kill @e[type=#sg:credits,tag=SGLobbyCredits]

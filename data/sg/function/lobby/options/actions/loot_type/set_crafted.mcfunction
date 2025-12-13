@@ -1,0 +1,1 @@
+data modify storage sg:options Options.loot_type set value 1

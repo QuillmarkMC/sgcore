@@ -1,0 +1,2 @@
+tellraw @a[team=ready] [{"text":"[!] ","color":"blue","bold": true},{"translate": "sg.lobby.teams.disband.size_changed","color": "white","bold": false}]
+execute as @a[team=ready] run function sg:lobby/teams/leave/return_to_default

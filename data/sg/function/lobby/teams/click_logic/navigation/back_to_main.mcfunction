@@ -1,0 +1,1 @@
+function sg:lobby/teams/inventory/states/reset

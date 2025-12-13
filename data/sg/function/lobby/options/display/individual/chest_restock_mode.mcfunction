@@ -1,0 +1,3 @@
+execute if data storage sg:options {Options:{chest_restock_mode:"all"}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.chest_restock_mode,limit=1] text set value {"translate":"sg.lobby.options.display.chest_restock_mode.value.all"}
+execute if data storage sg:options {Options:{chest_restock_mode:"cornucopia"}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.chest_restock_mode,limit=1] text set value {"translate":"sg.lobby.options.display.chest_restock_mode.value.cornucopia"}
+execute if data storage sg:options {Options:{chest_restock_mode:"none"}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.chest_restock_mode,limit=1] text set value {"translate":"sg.lobby.options.display.chest_restock_mode.value.none"}

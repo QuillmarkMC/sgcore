@@ -1,0 +1,2 @@
+execute store result score $DisplayValue options run data get storage sg:options Options.border_shrink_time
+data modify entity @e[type=text_display,tag=SGLobbyOptions.border_shrink_time,limit=1] text set value {"score":{"name":"$DisplayValue","objective":"options"}}

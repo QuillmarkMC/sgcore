@@ -1,0 +1,61 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+              {
+                "function": "set_components",
+                "components": {
+                    "equippable": {
+                        "slot": "feet",
+                        "asset_id": "leather"
+                    },
+                    "damage": 0,
+                    "max_damage": 65,
+                    "attribute_modifiers":[
+                        {
+                            "id": "sg:armor",
+                            "amount": 1,
+                            "type": "armor",
+                            "slot": "feet",
+                            "operation": "add_value"
+                        }
+                    ],
+                    "item_model": "leather_boots",
+                    "item_name": {"translate":"item.minecraft.leather_boots"},
+                    "enchantable": {"value": 15},
+                    "max_stack_size": 1,
+                    "repairable":{
+                      "items": "#minecraft:repairs_leather_armor"
+                    },
+                    "rarity": "common"
+                    
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:leather_chestplate"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:leather_helmet"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:leather_leggings"
+          }
+        ]
+      }
+    ]
+  }

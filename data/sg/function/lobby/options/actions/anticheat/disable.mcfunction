@@ -1,0 +1,1 @@
+data modify storage sg:options Options.anticheat set value 0

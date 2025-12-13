@@ -1,0 +1,1 @@
+function sg:game/border/state/shrink with storage sg:options Options

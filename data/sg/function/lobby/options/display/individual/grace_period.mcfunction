@@ -1,0 +1,2 @@
+execute store result score $DisplayValue options run data get storage sg:options Options.grace_period
+data modify entity @e[type=text_display,tag=SGLobbyOptions.grace_period,limit=1] text set value {"score":{"name":"$DisplayValue","objective":"options"}}

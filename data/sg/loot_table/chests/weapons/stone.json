@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:stone_axe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 300,
+            "name": "minecraft:stone_sword"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:stone_hoe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:stone_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:stone_shovel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 75,
+            "name": "minecraft:shield"
+          }
+        ]
+      }
+    ]
+  }

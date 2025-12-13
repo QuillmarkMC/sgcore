@@ -1,0 +1,1 @@
+data modify storage sg:options Options.chest_restock_mode set value "cornucopia"

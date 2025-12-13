@@ -1,0 +1,1 @@
+effect give @a[tag=SGPlaying,gamemode=!spectator] poison infinite 1 false

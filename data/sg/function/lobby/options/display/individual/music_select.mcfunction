@@ -1,0 +1,2 @@
+execute if data storage sg:options {Options:{soundtrack:0}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.music_select,limit=1] text set value {"translate":"sg.lobby.options.display.music_select.value.desolate_desert"}
+execute if data storage sg:options {Options:{soundtrack:1}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.music_select,limit=1] text set value {"translate":"sg.lobby.options.display.music_select.value.nocturne_crypts"}

@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "min_format": [88,0],
+        "max_format": [88,0],
+        "description": "Quillmark CORE survival games datapack"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/.*"
+            }
+        ]
+    }
+}

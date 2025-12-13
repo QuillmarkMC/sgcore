@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "sg:chests/base/materials/check_corn_restock"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "value": "sg:chests/base/crafted/check_corn_restock",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:storage",
+                "storage": "sg:options",
+                "path": "Options.loot_type"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

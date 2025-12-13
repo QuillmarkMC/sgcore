@@ -1,0 +1,2 @@
+execute store result score $DisplayValue options run data get storage sg:options Options.chest_restock_time
+data modify entity @e[type=text_display,tag=SGLobbyOptions.chest_restock_time,limit=1] text set value {"score":{"name":"$DisplayValue","objective":"options"}}

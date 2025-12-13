@@ -1,0 +1,48 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "weight": 100,
+            "value": "sg:chests/base/crafted/cornucopia",
+            "conditions": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "$CornucopiaLootState"
+                      },
+                      "score": "chestRestock"
+                    },
+                    "range": 0
+                }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 100,
+            "value": "sg:chests/base/crafted/rare",
+            "conditions": [
+                {
+                    "condition": "minecraft:value_check",
+                    "value": {
+                      "type": "minecraft:score",
+                      "target": {
+                        "type": "minecraft:fixed",
+                        "name": "$CornucopiaLootState"
+                      },
+                      "score": "chestRestock"
+                    },
+                    "range": 1
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }

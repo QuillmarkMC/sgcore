@@ -1,0 +1,2 @@
+execute if data storage sg:options {Options:{anticheat:0}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.anticheat,limit=1] text set value {"translate":"sg.lobby.options.display.disabled"}
+execute if data storage sg:options {Options:{anticheat:1}} run data modify entity @e[type=text_display,tag=SGLobbyOptions.anticheat,limit=1] text set value {"translate":"sg.lobby.options.display.enabled"}

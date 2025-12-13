@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:leather"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:phantom_membrane",
+    "components": {
+      "equippable": {
+        "slot": "feet",
+        "asset_id": "leather"
+      },
+      "damage": 0,
+      "max_damage": 65,
+      "attribute_modifiers":[
+        {
+          "id": "sg:armor",
+          "amount": 1,
+          "type": "armor",
+          "slot": "feet",
+          "operation": "add_value"
+        }
+      ],
+      "item_model": "leather_boots",
+      "item_name": {
+        "translate":"item.minecraft.leather_boots"
+      },
+      "enchantable": {
+        "value": 15
+      },
+      "max_stack_size": 1,
+      "repairable":{
+        "items": "#minecraft:repairs_leather_armor"
+      },
+      "rarity": "common"
+    }
+  },
+  "show_notification": false
+}

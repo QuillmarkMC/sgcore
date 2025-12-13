@@ -1,0 +1,1 @@
+execute as @a[tag=SGArenaFighter] run function sg:lobby/arena/deserter

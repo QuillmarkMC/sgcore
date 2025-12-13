@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "sg:game/out_of_bounds/cornucopia"
+        }
+    ]
+  }
