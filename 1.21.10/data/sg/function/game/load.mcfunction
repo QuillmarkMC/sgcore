@@ -46,10 +46,10 @@ scoreboard players operation $TotalPlayers win = $CurrentPlayers win
 scoreboard players add $Global matchID 1
 scoreboard players operation @a matchID = $Global matchID
 
-gamerule fall_damage true
-gamerule show_death_messages true
-gamerule natural_health_regeneration true
-gamerule keep_inventory false
+gamerule fallDamage true
+gamerule showDeathMessages true
+gamerule naturalRegeneration true
+gamerule keepInventory false
 difficulty hard
 time set 6000
 scoreboard players set $GameOver win 0
