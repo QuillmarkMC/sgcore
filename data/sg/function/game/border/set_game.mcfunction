@@ -1,3 +1,5 @@
+#called with storage sg:options Options
+
 worldborder center 0 0
 $worldborder set $(border_starting_size)
 
