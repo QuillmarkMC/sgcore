@@ -51,5 +51,6 @@ gamerule show_death_messages true
 gamerule natural_health_regeneration true
 gamerule keep_inventory false
 difficulty hard
+#TODO:
 time set 6000
 scoreboard players set $GameOver win 0
