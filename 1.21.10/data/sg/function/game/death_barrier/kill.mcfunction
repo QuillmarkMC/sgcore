@@ -1,4 +1,4 @@
-gamerule show_death_messages false
+gamerule showDeathMessages false
 kill @s
-gamerule show_death_messages true
+gamerule showDeathMessages true
 tellraw @a {"translate":"sg.game.death.doomed_to_fall",with:[{"selector":"@s"}]}
