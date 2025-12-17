@@ -1,5 +1,6 @@
 #called with sg:options Options
 #check border shrink time from lobby
+#TODO:
 $worldborder set 40 $(border_shrink_time)
 execute store result score $Timer border run data get storage sg:options Options.border_shrink_time
 execute store result bossbar sg:border max run scoreboard players get $Timer border
