@@ -7,7 +7,7 @@ scoreboard objectives remove sgdev.chestVar
 scoreboard objectives remove sgdev.math
 scoreboard objectives remove sgdev.array
 scoreboard objectives remove sgdev.stats
-scoreboard objectives remove sgdev.eggs
+scoreboard objectives remove sgdev.items
 scoreboard objectives remove sgdev.toggle_chest_place
 scoreboard objectives remove sgdev.chest_place
 scoreboard objectives remove sgdev.demo
