@@ -19,6 +19,7 @@ scoreboard objectives remove sgdev.rare
 scoreboard objectives remove sgdev.epic
 scoreboard objectives remove sgdev.cornucopia
 scoreboard objectives remove sgdev.loot
+scoreboard objectives remove sgdev.dfu
 
 team remove common
 team remove uncommon
