@@ -21,12 +21,4 @@ scoreboard objectives remove sgdev.cornucopia
 scoreboard objectives remove sgdev.loot
 scoreboard objectives remove sgdev.dfu
 
-team remove common
-team remove uncommon
-team remove rare
-team remove epic
-team remove legendary
-team remove cornucopia
-team remove anvil
-
 tag @a add SGResetPlayer
