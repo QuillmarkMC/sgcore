@@ -3,7 +3,7 @@ gamerule command_block_output false
 gamerule raids false
 gamerule advance_time false
 gamerule entity_drops false
-gamerule fire_spread_radius_around_player -1
+gamerule fire_spread_radius_around_player 0
 gamerule spawn_phantoms false
 gamerule immediate_respawn true
 gamerule limited_crafting true
